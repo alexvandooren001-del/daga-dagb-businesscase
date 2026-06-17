@@ -294,7 +294,7 @@
 
     <div class="chart-card">
       <h3>Dockbelasting Weijers — huidig vs. next-day · vrijdag</h3>
-      <p>Vrijdag is de drukste dag: 61 stops, waarvan 46 in de middag. Met next-day verschuift alles naar zaterdagochtend 09:00.</p>
+      <p>Vrijdag is de drukste dag voor de WTZ-combi: 165 stops, waarvan 113 in de middag. Met next-day verschuift alles naar zaterdagochtend 09:00.</p>
       <div class="legend">
         <span><span class="swatch" style="background:rgba(192,57,43,0.65);"></span>Huidig (same-day)</span>
         <span><span class="swatch" style="background:#1e7d4f;"></span>Next-day (dag B 09:00)</span>
@@ -313,27 +313,27 @@
   <div class="section" id="pilot">
     <div class="section-label">Pilot zomer 2025</div>
     <div class="section-h2">C.S. Weijers &amp; Zn. — het ideale pilotbedrijf</div>
-    <div class="section-intro">Weijers is gekozen als pilotbedrijf omdat het dock-probleem daar het meest urgent is én omdat het volume goed meetbaar is. Met 234 zendingen van 55 kwekers, waarvan 76% in de middag aankomt, is het effect van de verschuiving direct zichtbaar en meetbaar.</div>
+    <div class="section-intro">Weijers is gekozen als pilotbedrijf omdat het dock-probleem daar het meest urgent is én omdat het volume goed meetbaar is. Met 629 zendingen van 84 kwekers (Weijers, Tuberbulb én Royal van Zanten gecombineerd op één adres), waarvan 76% in de middag aankomt, is het effect van de verschuiving direct zichtbaar en meetbaar.</div>
 
     <div class="kpi-grid">
       <div class="kpi accent">
         <div class="lbl">Zendingen Weijers seizoen</div>
         <div class="val">234</div>
-        <div class="sub">van 55 unieke kwekers</div>
+        <div class="sub">van 84 unieke kwekers · 1 adres</div>
       </div>
       <div class="kpi rood">
         <div class="lbl">Stops in middag (12–16u)</div>
-        <div class="val">178</div>
+        <div class="val">478</div>
         <div class="sub">76% van alle stops · nu</div>
       </div>
       <div class="kpi groen">
         <div class="lbl">Stops na pilot (09:00)</div>
-        <div class="val">234</div>
+        <div class="val">629</div>
         <div class="sub">allemaal 's ochtends · voorspelbaar</div>
       </div>
       <div class="kpi">
         <div class="lbl">Piekweek volume</div>
-        <div class="val">73 lm</div>
+        <div class="val">141 lm</div>
         <div class="sub">maximale belasting per week</div>
       </div>
     </div>
@@ -462,10 +462,10 @@
         </thead>
         <tbody>
           <tr class="pilot-row">
-            <td>🧪 C.S. Weijers &amp; Zn. B.V.</td>
-            <td>234</td><td>55</td>
+            <td>🧪 WTZ-combi (Weijers + Tuberbulb + Royal v.Z.)</td>
+            <td>629</td><td>84</td>
             <td><div class="pot-bar" style="width:76px;"></div>76%</td>
-            <td>88</td><td>15</td>
+            <td>224</td><td>31</td>
             <td><span class="badge-midd badge-hoog">PILOT</span></td>
           </tr>
           <tr>
@@ -489,13 +489,7 @@
             <td>118</td><td>20</td>
             <td><span class="badge-midd badge-hoog">Hoog</span></td>
           </tr>
-          <tr>
-            <td>Tuberbulb Export B.V.</td>
-            <td>205</td><td>47</td>
-            <td><div class="pot-bar" style="width:77px;"></div>77%</td>
-            <td>79</td><td>12</td>
-            <td><span class="badge-midd badge-hoog">Hoog</span></td>
-          </tr>
+
           <tr>
             <td>Green Garden</td>
             <td>319</td><td>78</td>
@@ -503,13 +497,7 @@
             <td>111</td><td>16</td>
             <td><span class="badge-midd badge-hoog">Hoog</span></td>
           </tr>
-          <tr>
-            <td>Royal van Zanten</td>
-            <td>190</td><td>45</td>
-            <td><div class="pot-bar" style="width:75px;"></div>75%</td>
-            <td>57</td><td>10</td>
-            <td><span class="badge-midd badge-hoog">Hoog</span></td>
-          </tr>
+
           <tr>
             <td>Jac. Uittenbogaard (JUB)</td>
             <td>342</td><td>71</td>
@@ -573,19 +561,17 @@
       <h3>Exporteur</h3>
       <p>🧪 = Weijers pilot · overige = potentiële uitrol</p>
       <div class="exp-grid">
-        <button class="exp-btn pilot-btn active" onclick="setExp(0,this)">🧪 C.S. Weijers</button>
+        <button class="exp-btn pilot-btn active" onclick="setExp(0,this)">🧪 WTZ-combi</button>
         <button class="exp-btn" onclick="setExp(1,this)">Moolenaar B.V.</button>
         <button class="exp-btn" onclick="setExp(2,this)">A. Frijlink &amp; Zn.</button>
         <button class="exp-btn" onclick="setExp(3,this)">M. Thoolen B.V.</button>
-        <button class="exp-btn" onclick="setExp(4,this)">Tuberbulb Export</button>
-        <button class="exp-btn" onclick="setExp(5,this)">Green Garden</button>
-        <button class="exp-btn" onclick="setExp(6,this)">Royal van Zanten</button>
-        <button class="exp-btn" onclick="setExp(7,this)">JUB</button>
-        <button class="exp-btn" onclick="setExp(8,this)">Jansen's Overseas</button>
-        <button class="exp-btn" onclick="setExp(9,this)">Unex B.V.</button>
-        <button class="exp-btn" onclick="setExp(10,this)">Royal De Ree</button>
-        <button class="exp-btn" onclick="setExp(11,this)">J. de Wit &amp; Zn</button>
-        <button class="exp-btn" onclick="setExp(12,this)">Kapiteyn B.V.</button>
+        <button class="exp-btn" onclick="setExp(4,this)">Green Garden</button>
+        <button class="exp-btn" onclick="setExp(5,this)">JUB</button>
+        <button class="exp-btn" onclick="setExp(6,this)">Jansen's Overseas</button>
+        <button class="exp-btn" onclick="setExp(7,this)">Unex B.V.</button>
+        <button class="exp-btn" onclick="setExp(8,this)">Royal De Ree</button>
+        <button class="exp-btn" onclick="setExp(9,this)">J. de Wit &amp; Zn</button>
+        <button class="exp-btn" onclick="setExp(10,this)">Kapiteyn B.V.</button>
       </div>
 
       <div class="exp-metrics">
@@ -667,9 +653,9 @@ new Chart(document.getElementById('urgentieChart'),{
     datasets:[{
       label:'% middagstops',
       data:[85,82,83,77,76,76,75,73,73,72,67,64,53],
-      backgroundColor:['rgba(192,57,43,0.8)','rgba(192,57,43,0.8)','rgba(192,57,43,0.8)',
-                       'rgba(192,57,43,0.7)','rgba(192,57,43,0.7)','rgba(192,57,43,0.7)',
-                       'rgba(192,57,43,0.6)','rgba(192,57,43,0.55)','rgba(192,57,43,0.55)',
+      backgroundColor:['rgba(192,57,43,0.85)','rgba(192,57,43,0.8)','rgba(192,57,43,0.8)',
+                       'rgba(192,57,43,0.7)','rgba(192,57,43,0.7)',
+                       'rgba(192,57,43,0.55)','rgba(192,57,43,0.55)',
                        'rgba(192,57,43,0.5)','rgba(192,57,43,0.45)','rgba(192,57,43,0.4)','rgba(192,57,43,0.3)'],
       borderRadius:3
     }]
